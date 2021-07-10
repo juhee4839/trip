@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Noto+Sans&display=swap');
+
+*{margin:0px; padding:0px;}
+ul,li{list-style:none;}
+a{text-decoration: none; color:inherit;}
+
+body{
+    /*font-family: Marck Script;*/
+    font-family: "Noto Sans";
+    color:#555;
+}
+
+
+header{
+    position:fixed;
+    width:100%;
+    height:15%;
+    top:0; left:0;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+header h1{
+    width:200px;
+    height:130px;
+    background:url(../img/logo2.png) no-repeat 0px;
+    background-size:contain;
+    position:absolute;
+    top:-20px;
+    left:95px;
+    margin-left:-90px;
+}
+
+
+.gnb {
+    position:absolute;
+    width:65%;
+    top:30px;
+    right: -45px;
+    height:57px;
+    bottom:45px;
+    float:right;
+}
+
+.gnb > li{
+    float:left;
+}
+
+.gnb a{
+    display:block;
+    padding:8px 30px;
+    font-size:15px;
+    font-weight:bold;
+    line-height: 1.8;
+    transition:all 0.5s;
+}
+
+.gnb a:hover{
+    color:skyblue;
+}
+
+.snsSet{
+    width:100px;
+    height:47px;
+    position:absolute;
+    top:15px;
+    right:5%;
+    margin-right:-45px;
+    float:right;
+}
+
+.snsSet a{
+    float:left;
+}
+
+nav{
+    position:relative;
+    width:100%;
+    height:35px;
+    background-color:#212121;
+    top:85px;
+    transition:all 0.5s;
+}
+
+nav a{
+    position:absolute;
+    top:5px;
+}
+
+nav a:nth-child(1){left:10px;}
+nav a:nth-child(2){left:150px;}
+nav a:nth-child(3){left:90px;}
+nav a:nth-child(4){left:10px;}
