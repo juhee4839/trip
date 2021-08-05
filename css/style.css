@@ -33,7 +33,7 @@ header {
 header h1 {
   width: 200px;
   height: 130px;
-  background: url(../img/logo1.png) no-repeat 0px;
+  background: url(../img/logo3.png) no-repeat 0px;
   background-size: contain;
   position: absolute;
   top: 70px;
@@ -113,6 +113,10 @@ article {
   animation: scale 1s;
 }
 
+section > article:first-child span{
+  bottom:30px;
+
+}
 @keyframes scale {
   0% {
     transform: scale(0);
@@ -292,8 +296,8 @@ article:hover .text {
 
   header h1{
     width:200px;
-    height: 40px;
-    background-image: url(../img/logo2.png);
+    height:50px;
+    background-image: url(../img/logo4.png);
     top:20px;
     left:20px;
     margin-left:0px;
@@ -320,5 +324,411 @@ article:hover .text {
     position:relative;
     width:100%;
     height:80px;
+  }
+
+  nav,
+  section {
+    width: 100%;
+    margin-left: 0;
+  }
+
+   /*header콘텐츠*/
+   header h1 {
+    width:200px;
+    height:50px;
+    background-image: url(../img/logo3.png);
+    top: 20px;
+    left: 20px;
+    margin-left: 0px;
+  }
+
+  
+  .gnb {
+    top: 20px;
+    right: 30px;
+  }
+
+  .gnb li {
+    float: left;
+  }
+
+  .snsSet {
+    display: none;
+  }
+
+  article:nth-child(1) {
+    width: 75%;
+  }
+  article:nth-child(2) {
+    width: 25%;
+  }
+  article:nth-child(3) {
+    width: 25%;
+  }
+  article:nth-child(4) {
+    width: 25%;
+  }
+  article:nth-child(5) {
+    width: 25%;
+  }
+  article:nth-child(6) {
+    width: 50%;
+  }
+  article:nth-child(7) {
+    width: 50%;
+  }
+  article:nth-child(8) {
+    width: 25%;
+  }
+  article:nth-child(9) {
+    width: 25%;
+  }
+  article:nth-child(10) {
+    width: 50%;
+  }
+  article:nth-child(11) {
+    width: 25%;
+  }
+  article:nth-child(12) {
+    width: 25%;
+  }
+
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+  header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+  }
+  nav,
+  section {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /*header콘텐츠*/
+  header h1 {
+    width:200px;
+    height:50px;
+    background-image: url(../img/logo3.png);
+    top: 20px;
+    left: 20px;
+    margin-left: 0px;
+  }
+
+  .gnb {
+    top: 20px;
+    right: 10px;
+  }
+
+  .gnb li {
+    float: left;
+  }
+
+  .gnb li a {
+    padding: 10px;
+  }
+
+  .snsSet {
+    display: none;
+  }
+
+  article:nth-child(1) {
+    width: 100%;
+    height: 400px;
+  }
+  article:nth-child(2) {
+    width: 66.6666%;
+  }
+  article:nth-child(3) {
+    width: 33.3333%;
+  }
+  article:nth-child(4) {
+    width: 25%;
+    display: none;
+  }
+  article:nth-child(5) {
+    width: 33.3333%;
+  }
+  article:nth-child(6) {
+    width: 66.6666%;
+  }
+  article:nth-child(7) {
+    width: 50%;
+    display: none;
+  }
+  article:nth-child(8) {
+    width: 33.3333%;
+  }
+  article:nth-child(9) {
+    width: 33.3333%;
+  }
+  article:nth-child(10) {
+    width: 50%;
+    display: none;
+  }
+  article:nth-child(11) {
+    width: 33.3333%;
+  }
+  article:nth-child(12) {
+    width: 25%;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 779px) {
+  header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+  }
+  nav,
+  section {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /*header콘텐츠*/
+  header h1 {
+    width:200px;
+    height:50px;
+    background-image: url(../img/logo3.png);
+    top: 20px;
+    left: 20px;
+    margin-left: 0px;
+  }
+
+  .gnb {
+    top: 20px;
+    right: 10px;
+  }
+
+  .gnb li {
+    float: left;
+  }
+
+  .gnb li a {
+    padding: 10px;
+  }
+
+  .snsSet {
+    display: none;
+  }
+
+  article:nth-child(1) {
+    width: 100%;
+    height: 400px;
+  }
+  article:nth-child(2) {
+    width: 100%;
+  }
+  article:nth-child(3) {
+    width: 33.3333%;
+    display: none;
+  }
+  article:nth-child(4) {
+    width: 25%;
+    display: none;
+  }
+  article:nth-child(5) {
+    width: 50%;
+  }
+  article:nth-child(6) {
+    width: 50%;
+  }
+  article:nth-child(7) {
+    width: 50%;
+    display: none;
+  }
+  article:nth-child(8) {
+    width: 50%;
+  }
+  article:nth-child(9) {
+    width: 50%;
+  }
+  article:nth-child(10) {
+    width: 50%;
+    display: none;
+  }
+  article:nth-child(11) {
+    width: 50%;
+  }
+  article:nth-child(12) {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  header {
+    position: relative;
+    width: 100%;
+    height: 130px;
+  }
+  nav {
+    display: none;
+  }
+  section {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  article {
+    height: 150px;
+  }
+
+  article .bg1 span {
+    font-size: 120px;
+    bottom: -50px;
+  }
+
+  article .txt strong {
+    font-size: 25px;
+  }
+
+  article .txt em {
+    display: none;
+  }
+
+  /*header콘텐츠*/
+  header h1 {
+    width:200px;
+    height:50px;
+    background-image: url(../img/logo3.png);
+    position: relative;
+    top: 20px;
+    left: 70px;
+    margin: auto;
+  }
+
+  .gnb {
+    top: 80px;
+    right: 00px;
+    width: 100%;
+    height: 40px;
+  }
+
+  .gnb li {
+    float: left;
+    width: 25%;
+  }
+
+  .gnb li a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .snsSet {
+    display: none;
+  }
+
+  .text em{
+    display: none;
+  }
+
+  article:nth-child(1) {
+    width: 100%;
+    height: 400px;
+  }
+  article:nth-child(2) {
+    width: 100%;
+  }
+  article:nth-child(3) {
+    width: 33.3333%;
+    display: none;
+  }
+  article:nth-child(4) {
+    width: 25%;
+    display: none;
+  }
+  article:nth-child(5) {
+    width: 50%;
+  }
+  article:nth-child(6) {
+    width: 50%;
+  }
+  article:nth-child(7) {
+    width: 50%;
+    display: none;
+  }
+  article:nth-child(8) {
+    width: 50%;
+  }
+  article:nth-child(9) {
+    width: 50%;
+  }
+  article:nth-child(10) {
+    width: 50%;
+    display: none;
+  }
+  article:nth-child(11) {
+    width: 50%;
+  }
+  article:nth-child(12) {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    z-index: 5;
+  }
+
+  nav {
+    display: none;
+  }
+  section {
+    width: 100%;
+    margin-left: 0;
+    z-index: 4;
+  }
+  article {
+    display: none;
+  }
+
+  article:nth-child(1) {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  article:nth-child(1) span {
+    display: none;
+  }
+
+  /*header콘텐츠*/
+  header h1 {
+    top: 20px;
+    width:200px;
+    height:50px;
+    margin-left: -70px;
+  }
+
+  .gnb {
+    width: 250px;
+    top: 140px;
+    right: 50%;
+    margin-right: -125px;
+  }
+
+  .gnb a {
+    width: 100%;
+    background: #000;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    border-radius: 10px;
+    opacity: 0.5;
+    color: #fff;
+  }
+
+  .gnb a:hover {
+    opacity: 1;
+    transform: scale(1.1);
   }
 }
